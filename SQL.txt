@@ -1,0 +1,7 @@
+CREATE TABLE `test`.`citizen` (
+  `id` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `first_name` VARCHAR(45) NOT NULL COMMENT '',
+  `last_name` VARCHAR(45) NOT NULL COMMENT '',
+  `house` VARCHAR(45) NULL COMMENT '',
+  `message` VARCHAR(100) NULL COMMENT '',
+  PRIMARY KEY (`id`)  COMMENT '');
